@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management System</h1>
+
+        <!-- Task Form Section -->
+        <div class="task-form">
+            <input type="text" id="taskName" placeholder="Task Name">
+            <textarea id="taskDescription" placeholder="Task Description"></textarea>
+            <input type="date" id="taskDueDate">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <!-- Task List Section -->
+        <div class="task-list">
+            <h2>Task List</h2>
+            <!-- Header Row for the Task List -->
+            <div class="task-header">
+                <div>Task Name</div>
+                <div>Description</div>
+                <div>Due Date</div>
+                <div>Actions</div>
+            </div>
+            <!-- Task Rows will be dynamically added here by script.js -->
+            <div id="taskContainer"></div>
+        </div>
+    </div>
+
+    <!-- Edit Task Modal Section -->
+    <div class="modal" id="editModal">
+        <div class="modal-content">
+            <h2>Edit Task</h2>
+            <form class="task-form" id="editTaskForm">
+                <input type="text" id="editTaskName" name="name" placeholder="Task Name" required />
+                <textarea id="editTaskDescription" name="description" placeholder="Task Description" required></textarea>
+                <input type="date" id="editTaskDueDate" name="due_date" required />
+                <select id="editTaskStatus" name="status">
+                    <option value="pending">Pending</option>
+                    <option value="completed">Completed</option>
+                </select>
+                <div class="form-actions">
+                    <button type="submit">Save Changes</button>
+                    <button type="button" onclick="closeEditModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript to handle dynamic task management -->
+    <script src="script.js"></script>
+</body>
+</html>
