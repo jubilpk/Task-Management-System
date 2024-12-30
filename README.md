@@ -27,4 +27,9 @@ A simple web-based task management system to demonstrate Full-Stack development 
 ## Technology Stack
 - **Frontend**: HTML, CSS, JavaScript (Fetch API for CRUD operations).
 - **Backend**: PHP, MySQL.
+  
+## Screenshots
+![Image 1](https://github.com/user-attachments/assets/9f53b88b-606e-4cf0-a253-c34091d91235)
+![Image 9](https://github.com/user-attachments/assets/04bfab1b-1866-4de8-a50c-c3213f5bc6cd)
+![Image 7](https://github.com/user-attachments/assets/cad7ff7f-e89a-49a6-99d9-28e8e02e38b8)
 
