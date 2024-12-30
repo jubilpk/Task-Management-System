@@ -28,5 +28,3 @@ A simple web-based task management system to demonstrate Full-Stack development 
 - **Frontend**: HTML, CSS, JavaScript (Fetch API for CRUD operations).
 - **Backend**: PHP, MySQL.
 
-## Additional Information
-Original work only. This project is for showcasing Full-Stack skills for evaluation purposes.
